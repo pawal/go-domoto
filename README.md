@@ -5,7 +5,7 @@ go-domoto is a Golang library for accessing the Domoticz HTTP API.
 Usage is simple:
 
 ```golang
-c := domoto.New("http://localhost:8080","username","password"
+c := domoto.New("http://localhost:8080","username","password")
 res, err := c.AllDevices("")
 ```
 or
