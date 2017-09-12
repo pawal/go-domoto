@@ -2,6 +2,8 @@
 
 go-domoto is a Golang library for accessing the Domoticz HTTP API.
 
+## Usage
+
 Usage is simple:
 
 ```golang
@@ -15,3 +17,6 @@ res, err := c.DeviceToggle(1)
 
 A more complete example is an implementation of a CLI here:
 https://github.com/pawal/domo-cli
+
+## Documentation
+https://godoc.org/github.com/pawal/go-domoto
